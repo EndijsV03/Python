@@ -55,10 +55,10 @@ def eksponenta(skaitlis1, skaitlis2):
     
     output: eksponenta vērtība
 '''
-
-## Šo daļu nedzēst!
-#assert summa(1,2) == 3
-#assert atnemsana(3,1) == 2
-#assert multiplikacija(1,2) == 2
-#assert dalisana(2,2) == 1
-#assert eksponenta(2,2) == 4
+if __name__ == "__main__":
+    print('Testet funkciju: ', __name__)
+    assert summa(1,2) == 3
+    assert atnemsana(3,1) == 2
+    assert multiplikacija(1,2) == 2
+    assert dalisana(2,2) == 1
+    assert eksponenta(2,2) == 4

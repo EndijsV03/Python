@@ -1,14 +1,5 @@
 import calc
-
-def parseInput(inputStr):
-    inputList = inputStr.split()
-
-    num1 = float(inputList[0])
-    num2 = float(inputList[2])
-
-    operation = inputList[1]
-
-    return num1, num2, operation
+import sys
 
 def calculation(num1, num2, operation):
     if operation == "+":
@@ -27,10 +18,11 @@ def calculation(num1, num2, operation):
     return result
 
 if __name__ == "__main__":
-    userInput = input('Ievadiet operaciju: ')
-
     try:
-        num1, num2, operation = parseInput(userInput)
+        num1 = float(sys.argv[0])
+        num2 = float(sys.argv[2])
+        operation = sys.arg[1]
+
         result = calculation(num1, num2, operation)
 
         print(result)

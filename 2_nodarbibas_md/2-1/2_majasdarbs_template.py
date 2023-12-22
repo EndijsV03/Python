@@ -122,8 +122,8 @@ ievade = input("Vēlamo darbību, atļauts [+ , - , * , / , eksp  ]: ")
 parbaudit_ievadi(ievade)
 
 ## Šo daļu nedzēst!
-#assert summa(1,2) == 3
-#assert atnemsana(3,1) == 2
-#assert multiplikacija(1,2) == 2
-#assert dalisana(2,2) == 1
-#assert eksponenta(2,2) == 4
+assert summa(1,2) == 3
+assert atnemsana(3,1) == 2
+assert multiplikacija(1,2) == 2
+assert dalisana(2,2) == 1
+assert eksponenta(2,2) == 4
