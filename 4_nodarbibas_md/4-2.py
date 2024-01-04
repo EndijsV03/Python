@@ -11,7 +11,8 @@ print(l)
 ###########################
 ########### atrodi dubultos
 ###########################
-# Use Floyd's Tortoise and Hare algorithm to find duplicates
+
+#Floyds Tortoise and Hare algoritms
 def find_duplicates(nums):
     tortoise = nums[0]
     hare = nums[0]

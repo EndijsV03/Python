@@ -19,11 +19,13 @@ import sys
 
 def url_to_filename(url):
     """
-    Funkcija paņem kādu URL sadala to ar atdalītāju / un izvedo faila nosaukumu
-    Ievade: URL
-    Izvade: Faila nosaukums
+        Funkcija paņem kādu URL sadala to ar atdalītāju / un izvedo faila nosaukumu
+        Ievade: URL
+        Izvade: Faila nosaukums
+
     """
-    *tmp, part1, part2 = url.split("/")
+    *tmp, part1, part2 = url.split( "/" )    
+    print( tmp, part1, part2 )
     if len(part1) > 0:
         filename = part1 + "_" + part2
     else:
