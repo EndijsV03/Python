@@ -10,7 +10,7 @@ Janis = {"Andris" : "041123451", "Martins" : "041123457", "Santa" : "041123458",
 Andris = {"Janis" : "041123456", "Martins" : "041123457", "Santa" : "041123458", "Kristina" : "041123450"}
 
 ## Uzdevums 1 - Izvadīt to draugu vārdus, kuru numuri ir vienādi
-numri = [Janis.keys() & Andris.keys()] # TODO 
+numri = Janis.keys() & Andris.keys() # TODO 
 
 ## Atkomentēt assert testu, lai pārbaudītu rezultātu
 assert numri == {'Santa', 'Martins'}
